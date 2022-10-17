@@ -1,4 +1,17 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+
+*{
+  margin:0px;
+  padding:0px;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +48,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
