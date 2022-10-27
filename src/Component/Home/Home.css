@@ -215,8 +215,21 @@ For large devices */
   /* For small devices */
   @media screen and (max-width: 350px) {
     .home_img{
-        width: 170px;
-        height: 170px;
+        width: 150px;
+        height: 150px;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        margin-right: 1rem;
     }
+  }
+
+
+  @media screen and (max-width: 250px){
+    .home_img{
+        width: 130px;
+        height: 130px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        margin-right: 1rem;
+        padding: 1rem;
+    }
+
   }

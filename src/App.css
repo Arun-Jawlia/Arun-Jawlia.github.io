@@ -231,10 +231,16 @@ For large devices */
   .section{
     padding: 2rem 0 4rem ;
   }
+  .section_title{
+    margin-bottom: -.5rem;
+  
+  }
 
   .section_subtitle{
-    padding:2rem 0 4rem ;
+    padding:0.5rem  ;
   }
+
+
 
   
 }

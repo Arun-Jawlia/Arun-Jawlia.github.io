@@ -9,10 +9,11 @@
     border-radius: 1.5rem;
     justify-self: center;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 13rem;
 }
 
 I .about_info {
-    grid-template-columns: repeat(3, 140px);
+    grid-template-columns: repeat(3, 1fr);
     gap: 0.5rem;
     margin-bottom: var(--mb-2);
 
@@ -50,6 +51,18 @@ I .about_info {
 }
 
 
+.I .about_info {
+    grid-template-columns: repeat(3, 140px);
+    gap: 0.5rem;
+    margin-bottom: var(--mb-2);
+
+}
+
+.about_resume>button{
+    margin-top:  1rem;
+}
+
+
 
 
 /*== ===== BREAKPOINTS ===
@@ -62,6 +75,8 @@ For large devices */
 
     .about_img{
         width: 220px;
+        margin-bottom:0px;
+
     }
 
     .about_box{
@@ -74,12 +89,15 @@ For large devices */
 
     .about_info{
         justify-content: center;
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .about_description{
         padding: 0 5rem;
         margin-bottom: 2rem;
+        text-align: center;
     }
+
    
   
    
@@ -87,13 +105,23 @@ For large devices */
   }
   /* For medium devices */
   @media screen and (max-width: 768px) {
+    I .about_info{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0.5rem;
+        margin-bottom: var(--mb-2);
+    
+    }
+
+    .about_img{
+        margin-bottom: var(--mb-1);
+    }
    
   
     
   }
   @media screen and (max-width: 576px) {
     .about_info{
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(2,1fr);
 
     }
 
@@ -101,12 +129,21 @@ For large devices */
         padding: 0;
 
     }
+
+    .about_img{
+        margin-bottom:.75rem;
+    }
+
   }
   /* For small devices */
   @media screen and (max-width: 350px) {
     .about_info{
         grid-template-columns: repeat(2,1fr);
         
+    }
+
+    .about_img{
+        margin-bottom: var(--mb-2);
     }
     
     

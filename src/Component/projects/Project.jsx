@@ -31,7 +31,7 @@ const Project = () => {
 
           <div className="project_description">
             <div>
-              <span>Description:</span>
+              <span >Description:</span>
             </div>
             Optimizely is an American company that provides digital experience
             platform software as a service. Optimizely provides A/B testing and
@@ -41,7 +41,7 @@ const Project = () => {
           </div>
           <div className="project_responsible">
             <div>
-              <span>My Role:</span>
+              <span  >My Role:</span>
             </div>
             I am responsible for the Home Page of this website.
           </div>
@@ -50,6 +50,7 @@ const Project = () => {
             <i class="bx bxl-html5 tech_icon"></i>
             <i class="bx bxl-css3 tech_icon"></i>
             <i class="bx bxl-javascript tech_icon"></i>
+            <i class="bx bxl-react tech_icon"></i>
           </div>
           <div className="project_button">
             <a
@@ -83,7 +84,7 @@ const Project = () => {
           </a>
 
           <div className="project_description">
-            <div>
+            <div  className="project_desc">
               <span>Description:</span>
             </div>
             It's an Online Shopping website for the Latest Clothes & Fashion for
@@ -189,11 +190,7 @@ const Project = () => {
             <div>
               <span>Description:</span>
             </div>
-            Optimizely is an American company that provides digital experience
-            platform software as a service. Optimizely provides A/B testing and
-            multivariate testing tools, website personalization, and feature
-            toggle capabilities, as well as web content management and digital
-            commerce.
+            Nordstrom, Inc. is a leading fashion retailer offering compelling clothing, shoes and accessories for men, women and kids. Since 1901, we've been committed to providing our customers with the best possible service—and to improving it every day.
           </div>
           <div className="project_responsible">
             <div>

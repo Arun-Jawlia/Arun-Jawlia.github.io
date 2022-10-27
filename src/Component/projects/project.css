@@ -53,26 +53,41 @@
 
 .project_tech_icon{
     display: flex;
-    justify-content: center;
-    align-items: center;
     margin-bottom: 1rem;
+    background-color: var(--container-color);
+    max-width: fit-content;
+    align-items: center;
+    justify-content: center;
+    padding: 0.25rem;
+    border-radius: 10px;
+
 }
 
 .tech_icon{
-    font-size: 1.5rem;
-    color: var(--title-color);
+    font-size: 2rem;
+    /* color: var(--title-color); */
+    color: orange;
 }
 
 
 .project_button{
     display: flex;
     justify-content: space-between;
+    
 }
 
 /* .project_button>span>button{
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 5px;
 } */
+
+
+.project_desc{
+    font-weight:'bold';
+     text-decoration:'underline';
+
+}
+
 
 
 
