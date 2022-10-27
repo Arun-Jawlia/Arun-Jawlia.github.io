@@ -1,34 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
-import { Navbar } from './Component/Navbar';
-import { AllRoutes } from './Pages/AllRoutes';
-import styled from 'styled-components'
+import "./App.css";
+import About from "./Component/about/About";
+import Contact from "./Component/contact/Contact";
+import { Footer } from "./Component/footer/Footer";
+import Header from "./Component/Header/Header";
+import Home from "./Component/Home/Home";
+import Project from "./Component/projects/Project";
+import Scrollup from "./Component/scrollup/Scrollup";
+import { Skills } from "./Component/skills/Skills";
 
 function App() {
   return (
     <>
-    <Container>
-      <NavbarDiv>
-      <Navbar/>
-
-      </NavbarDiv>
-
-      <AllRoutes/>
-    </Container>
+      <Header />
+      <main className="main">
+        <Home />
+        <About />
+        <Skills />
+        <Project />
+        <Contact />
+      </main>
+      <Footer />
+      <Scrollup/>
     </>
   );
-
 }
 
 export default App;
-
-
-const Container = styled.div`
-  display: flex;
-  border:1px solid white;
-  // background-color:teal
-  `
-const NavbarDiv = styled.div`
-color:blue;
-`
-

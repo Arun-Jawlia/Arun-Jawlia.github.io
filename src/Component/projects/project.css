@@ -1,0 +1,144 @@
+.project_container{
+    width: 90%;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    margin: auto;
+    background-color: var(--container-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 1.25rem;
+    padding: 2rem 4rem;
+    box-shadow: rgba(78, 9, 228, 0.2) 0px 2px 15px 0px;
+}
+
+
+.project_content{
+    background-color: var(--container-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 1.25rem;
+    padding: 1.5rem;
+    
+
+}
+
+.project_title{
+    text-align: center;
+    margin-bottom: 1rem;
+
+}
+
+.project_image{
+    width: 100%;
+}
+
+.project_image:hover{
+    cursor: pointer;
+}
+
+
+.project_description{
+    text-align: justify;
+    margin-bottom: 1rem;
+    font-size: 0.75rem;
+    font-weight: var(--font-medium);
+}
+
+
+.project_responsible{
+    text-align: justify;
+    margin-bottom: 1rem;
+    /* font-size: var(--normal-font-size); */
+    font-size: .75rem;
+    font-weight: var(--font-medium);
+}
+
+.project_tech_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.tech_icon{
+    font-size: 1.5rem;
+    color: var(--title-color);
+}
+
+
+.project_button{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .project_button>span>button{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+} */
+
+
+
+
+/*== ===== BREAKPOINTS ===
+For large devices */
+@media screen and (max-width: 992px) {
+    .container{
+      margin-left: var(--mb-1-5);
+      margin-right: var(--mb-1-5);
+    }
+  
+    .button{
+      padding: 1rem 1.75rem;
+    }
+  
+   
+  
+  }
+  /* For medium devices */
+  @media screen and (max-width: 768px) {
+  
+   
+      .project_container{
+          width: 90%;
+          grid-template-columns: repeat(1,1fr);
+          justify-content: center;
+          margin: auto;
+          background-color: var(--container-color);
+          border: 1px solid rgba(0, 0, 0, 0.1);
+          border-radius: 1.25rem;
+          padding: 1rem 2rem;
+      }
+  
+   
+  
+    
+  }
+  @media screen and (max-width: 576px) {
+    .project_container{
+        width: 90%;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        margin: auto;
+        background-color: var(--container-color);
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 1.25rem;
+        padding: 1rem 2rem;
+    }
+
+    button{
+        padding:0.4rem 0.75rem
+    }
+
+    
+
+  }
+  /* For small devices */
+  @media screen and (max-width: 350px) {
+    :root{
+      --big-font-size:2.25rem
+    }
+  
+    .container{
+      margin-left: var(--mb-1);
+      margin-right: var(--mb-1);
+  
+    }
+  }
