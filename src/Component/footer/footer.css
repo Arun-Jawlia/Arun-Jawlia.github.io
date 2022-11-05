@@ -1,9 +1,11 @@
 .footer{
     background-color: var(--container-color);
-    border-top: 1px solid rgba(0,0,0,0.1);
+    border-top: 5px solid red;
     box-shadow: rgba(78, 9, 228, 0.2) 0px 2px 15px 0px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    background-color: black;
+    color: white;
 }
 
 .footer_container{
@@ -11,7 +13,7 @@
 }
 
 .footer_title, .footer_link{
-    color:var(--title-color)
+    color:white;
 }
 
 .footer_title{
@@ -21,7 +23,7 @@
 
 
 .footer_link:hover{
-    color: var(--title-color-dark);
+    color: red;
 }
 
 .footer_list{
@@ -49,8 +51,9 @@
 
 }
 
-.footer-social_link:hover{
-background-color: var(--title-color-dark);
+.footer_social_link:hover{
+background-color: red;
+color: red;
 
 }
 
@@ -58,9 +61,19 @@ background-color: var(--title-color-dark);
 .footer_copy{
     display: block;
     margin-top: 4.5rem;
-    color: var(--title-color);
+    color: red;
     text-align: center;
     font-size: var(--smaller-font-size);
+
+}
+
+.home_social_icon{
+    padding: 5px;
+}
+
+.home_social_icon:hover{
+    background-color: red;
+    border-radius: 50px;
 
 }
 

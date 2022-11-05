@@ -9,7 +9,9 @@ export const FullStkDev = () => {
 
 
             <div className="skills_data">
-              <i class='bx bx-badge-check'></i>
+            <div>
+            <i class='bx bxl-html5'></i>
+            </div>
               <div>
                 <h3 className="skills_name">HTML</h3>
                   <span className="skills_level">Intermediate</span>

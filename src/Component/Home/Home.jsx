@@ -1,7 +1,6 @@
 import React from 'react'
 import { Data } from './Data'
 import './Home.css'
-import ScrollDown from './ScrollDown'
 import { Social } from './Social'
 
 const Home = () => {
@@ -14,7 +13,7 @@ const Home = () => {
             <Data/>
 
         </div>
-        <ScrollDown/>
+        {/* <ScrollDown/> */}
     </div>
     
   </section>

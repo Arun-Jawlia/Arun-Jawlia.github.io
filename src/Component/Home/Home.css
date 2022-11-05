@@ -1,8 +1,15 @@
 
+#home{
+    background-color: black;
+    /* background-color: var(--title-color); */
+    color: white;
+    /* border: 5px solid red; */
+}
 
 .home_content{
     grid-template-columns:  116px repeat(2,1fr);
     padding-top: 5.5rem;
+    padding-bottom: 5.3rem;
     column-gap: 2rem;
     align-items: center;
 
@@ -19,14 +26,15 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    /* box-shadow: inset 0 0 0 9px rgba(38, 5, 5, 0.3); */
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* box-shadow: inset 0 0 0 9px rgba(38, 5, 5, 1); */
+    
     order: 1;
     justify-self: center;
-    width: 300px;
-    height: 300px;
-    border-radius: 20%;
-    /* animation: profile_animate 6s ease-in-out infinite 1s; */
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 5px solid red;
+    
 
 }
 
@@ -42,18 +50,20 @@
 
 .home_social_icon{
     font-size: 1.2rem;
-    color: var(--title-color);
+    /* color: var(--title-color); */
+    color: white;
 
 }
 
 .home_social_icon:hover{
-    color: var(--title-color-dark);
+    color: white;
 
 }
 
 
 .home_title{
     font-size: var(--big-font-size);
+    color: white;
 
     margin-bottom: var(--mb-0-25);
 }
@@ -64,6 +74,7 @@
     font-size: var(--h3-font-size);
     /* padding-left: 5.4rem; */
     font-weight: var(--font-normal);
+    color: red;
     margin-bottom: var(--mb-1);
     /* text-align: left; */
 
@@ -88,9 +99,10 @@
 button{
 
     padding: 10px;
-    background-color: black;
-    color: white;
+    background-color: red;
+    color: black;
     border-radius: 5px;
+    font-weight: 600;
     
 }
 

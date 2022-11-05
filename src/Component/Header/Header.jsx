@@ -3,25 +3,31 @@ import React, { useState } from "react";
 import "./Header.css";
 
 const Header = () => {
-    // Toggle menu and close button
 
     const [toggle,showMenu]=useState(false)
 
 
-  /*====== ==== Change Background Header =*/
-  window.addEventListener("scroll", function () {
-    const header = document.querySelector(".header");
-
-    if (this.scrollY >= 80) header.classList.add("scroll-header");
-    else header.classList.remove(" scroll-header");
-  });
+  
 
   return (
     <header className="header">
       <nav className="nav container">
-        <a href="index.html" className="nav_logo">
-          Arun
+      <h1>
+      <a href="index.html" className="nav_logo">
+          <span>A</span>
+          <span>r</span>
+          <span>u</span>
+          <span>n</span>
+          <span> </span>
+          <span>J</span>
+          <span>a</span>
+          <span>w</span>
+          <span>l</span>
+          <span>i</span>
+          <span>a</span>
+
         </a>
+      </h1>
 
         <div className={toggle ? 'nav_menu show_menu' : 'nav_menu'}>
           <ul className="nav_list grid">
@@ -45,6 +51,7 @@ const Header = () => {
                 <i className="uil uil-briefcase-alt nav_icon"></i>Project
               </a>
             </li>
+            
 
             <li className="nav_item">
               <a href="#contact" className="nav_link">

@@ -135,7 +135,8 @@ img{
 
 /* Reusable CSS */
 .section{
-  padding: 6rem 0 2rem;
+  padding: 5rem 0 3rem;
+  /* border: 2px solid red; */
 }
 
 
@@ -161,7 +162,7 @@ img{
 
 /* Layout */
 .container{
-  max-width: 968px;
+  max-width: 90%;
   margin-left: auto;
   margin-right: auto;
   padding: var(--mb-1);
@@ -211,8 +212,8 @@ img{
 For large devices */
 @media screen and (max-width: 992px) {
   .container{
-    margin-left: var(--mb-1-5);
-    margin-right: var(--mb-1-5);
+    margin-left: var(--mb-1-2);
+    margin-right: var(--mb-1-2);
   }
 
   .button{

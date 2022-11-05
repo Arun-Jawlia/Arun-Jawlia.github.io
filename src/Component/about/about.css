@@ -12,12 +12,7 @@
     margin-bottom: 13rem;
 }
 
-I .about_info {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 0.5rem;
-    margin-bottom: var(--mb-2);
 
-}
 
 .about_box{
     background-origin: var(--container-color);
@@ -46,13 +41,15 @@ I .about_info {
 
 
 .about_description{
-    padding: 0 4rem 0 0;
+    padding: 0 2rem 0 0;
     margin-bottom: var(--mb-2-5);
+    align-items: justify;
 }
 
 
-.I .about_info {
-    grid-template-columns: repeat(3, 140px);
+.about_info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 0.5rem;
     margin-bottom: var(--mb-2);
 
@@ -88,6 +85,7 @@ For large devices */
     }
 
     .about_info{
+        display: grid;
         justify-content: center;
         grid-template-columns: repeat(3, 1fr);
     }
