@@ -30,7 +30,7 @@ const Contact = () => {
           <h3 className="contact_title">Talk to me</h3>
           <div className="contact_info">
             <div className="contact_card">
-              <i className="bx bx-mail-send contact_card-icon"></i>
+              <i className="bx bx-mail-send contact_card_icon"></i>
               <h3 className="contact_card_title">Email</h3>
               <span className="contact_card_data">
                 arunkumar08.mk@gmail.com
@@ -46,7 +46,7 @@ const Contact = () => {
             </div>
 
             <div className="contact_card">
-              <i className="bx bxl-whatsapp contact_card-icon"></i>
+              <i className="bx bxl-whatsapp contact_card_icon"></i>
               <h3 className="contact_card_title">Whatsapp</h3>
               <span className="contact_card_data">+91 9718653508</span>
               <a
@@ -60,7 +60,7 @@ const Contact = () => {
             </div>
 
             <div className="contact_card">
-              <i className="bx bxl-linkedin contact_card-icon"></i>
+              <i className="bx bxl-linkedin contact_card_icon"></i>
               <h3 className="contact_card_title">Linked In</h3>
               <span className="contact_card_data">Arun Jawlia</span>
               <a

@@ -16,6 +16,7 @@
     border: 1px solid var(--text-color);
     color: var(--text-color);
     transition: var(--transition);
+    width: 100%;
 
 }
 
@@ -51,7 +52,7 @@ a{
   }
 
   .git_stats div img{
-    width: 100%;
+    width: 90%;
   }
 
 
@@ -60,6 +61,13 @@ a{
     /* margin-top: 0.75rem; */
     border-radius: 1rem;
     margin-top: -3rem;
+  }
+
+  .git_graph img{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
 

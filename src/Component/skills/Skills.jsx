@@ -4,12 +4,12 @@ import "./skills.css";
 
 export const Skills = () => {
   return (
-    <section id="skills" className="section ">
+    <section id="skills" className="section">
        <h2 className="section_title">Skills</h2>
       <span className="section_subtitle">Technical level</span>
       
 
-      <div className="container  ">
+      <div className="container skills_main_container  ">
         <div className="skills_frontend skills_container">
         <h3 className="skills_title" > my technical Levels </h3>
           <div className="skills_content">

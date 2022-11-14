@@ -39,15 +39,7 @@ export const Github = () => {
         </div>
       </div>
 
-      <div className="container git_graph">
-        {/* <a href="https://github.com/Arun-Jawlia" target="blank"> */}
-        <img
-          className="section"
-          alt="Arun's Activity Graph"
-          src="https://activity-graph.herokuapp.com/graph?username=Arun-Jawlia&custom_title=Arun-Jawlia's%20Contribution%20Graph&theme=react-dark"
-        />
-        {/* </a> */}
-      </div>
+     
     </section>
   );
 };

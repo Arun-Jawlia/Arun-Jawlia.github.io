@@ -36,7 +36,7 @@ const Project = () => {
           <div className="project_description">
             
             Optimizely is an American company that provides digital experience
-            platform software as a service.
+            platform software as a service. In this website using react, I have created the homepage of this website and make it responsive as much I can.
           </div>
          
 
@@ -84,9 +84,10 @@ const Project = () => {
           </div>
 
           <div className="project_description">
-            <span style={{ fontWeight: "600" }}>Description: </span>
+            
             Asos is an Online Shopping Website for the Latest Clothes & Fashion for
             Man and Woman.
+            I have created the product and product's show page with using tech stacks.
           </div>
           
 
