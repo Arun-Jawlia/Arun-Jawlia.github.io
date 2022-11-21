@@ -14,17 +14,7 @@ const Header = () => {
       <nav className="nav container">
       <h1>
       <a href="index.html" className="nav_logo">
-          <span>A</span>
-          <span>r</span>
-          <span>u</span>
-          <span>n</span>
-          <span> </span>
-          <span>J</span>
-          <span>a</span>
-          <span>w</span>
-          <span>l</span>
-          <span>i</span>
-          <span>a</span>
+          Arun Jawlia
 
         </a>
       </h1>
