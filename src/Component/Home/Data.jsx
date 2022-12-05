@@ -1,5 +1,6 @@
 import React from "react";
-
+import myCV from "../../assets/Arun-Jawlia-Resume.pdf.pdf";
+import './Home.css'
 export const Data = () => {
   return (
     <div className="home_data">
@@ -25,10 +26,13 @@ export const Data = () => {
         and I'm very passionate and dedicated to my work.
       </p>
       <a href="#contact">
-        <button style={{ backgroundColor: "red", color: "black" }}>
+        <button className="btn_hover" >
           Say Hello
         </button>
       </a>
+      <a  download="" href={myCV}>
+            <button className="btn_hover" >Resume</button>
+          </a>
     </div>
   );
 };

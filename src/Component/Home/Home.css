@@ -107,6 +107,13 @@ button{
     
 }
 
+.btn_hover{
+    background-color: red;
+    color: white;
+    margin-left: 5px;
+
+}
+
 
 .home_scroll{
     margin-left: 9.25rem ;

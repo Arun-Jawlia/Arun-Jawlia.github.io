@@ -6,7 +6,7 @@
     background-color: var(--container-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 1.25rem;
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
     /* box-shadow: rgba(78, 9, 228, 0.2) 0px 2px 15px 0px; */
 }
 
@@ -17,9 +17,16 @@
     border-radius: 1.25rem;
     padding: 1rem;
     margin: auto;
+    border: 1px solid black;
+   
+    
 
     
 
+}
+
+.project_content:hover{
+    transition: all 400ms ease;
 }
 
 .project_image:hover{
@@ -27,7 +34,7 @@
 }
 
 .project_content:hover{
-    transition: var(--transition);
+    
     cursor: pointer;
 }
 

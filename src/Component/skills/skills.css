@@ -1,7 +1,7 @@
 
 #skills{
   /* border: 1px solid black; */
-  width: 80%;
+  width: 100%;
   margin: auto;
 }
 
@@ -35,9 +35,9 @@
   .skills_content {
     display: grid;
     border: none;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(auto);
-    row-gap: 2rem;
+    row-gap: 1rem;
     margin-bottom: 2rem;
   }
   
@@ -50,11 +50,12 @@
     border-radius: 0.5rem;
   }
   .skills_details:hover {
-    background-color: var(--text-color-light);
+    background-color:rgb(218, 218, 236);
     scale: 1.2;
     cursor: cursor;
     transition: var(--transition);
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
   }
   .skills_details-icon {
     margin-top: 6px;
@@ -70,7 +71,7 @@
     } */
     .skills_content {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(3, 1fr);
       margin-bottom: 1rem;
     }
   }
@@ -112,8 +113,8 @@
 /*  for mediym devices */
 @media screen and (max-width: 576px) {
   .skills_content {
-    grid-template-columns: repeat(1, 1fr);
-    margin: auto;
+    grid-template-columns: repeat(2, 1fr);
+    /* margin: auto; */
   }
 
   .skills_container{
@@ -121,9 +122,10 @@
   }
 
   .skills_details {
-    display: flex;
-    margin: auto;
-    padding: 0.2rem 0.5rem;
+    /* display: flex; */
+    /* margin: auto; */
+    font-size: 12px;
+    padding: 0.1rem 0.5rem;
   }
 
    

@@ -23,7 +23,7 @@
 --text-color: hsl(var(--hue), var(--sat), 46%);
 --body-color: hsl(var(--hue), var(--sat), 98%);
 --container-color: #fff;
---transition: all 400ms ease;
+--transition: all 500ms ease;
 
 
 
