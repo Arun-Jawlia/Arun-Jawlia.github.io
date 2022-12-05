@@ -33,6 +33,7 @@ export const Data = () => {
       <a  download="" href={myCV}>
             <button className="btn_hover" >Resume</button>
           </a>
+          
     </div>
   );
 };
