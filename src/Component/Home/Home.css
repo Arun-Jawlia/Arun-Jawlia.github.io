@@ -109,8 +109,9 @@ button{
 
 .btn_hover{
     background-color: red;
-    color: white;
+    color: black;
     margin-left: 5px;
+    border: 1px solid red;
 
 }
 
