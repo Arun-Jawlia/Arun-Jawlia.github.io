@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9d67f0c2.css",
-    "main.js": "/static/js/main.1cca6a99.js",
+    "main.css": "/static/css/main.8a123ae5.css",
+    "main.js": "/static/js/main.9d082e3a.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/NordStorm.png": "/static/media/NordStorm.0ca75cab73fe2eedd773.png",
     "static/media/sephora_clone.png": "/static/media/sephora_clone.a110a524fc349ee82a86.png",
@@ -10,12 +10,12 @@
     "static/media/Arun-Jawlia-Resume.pdf.pdf": "/static/media/Arun-Jawlia-Resume.pdf.0e2c4d353c843a9da176.pdf",
     "static/media/my_img.jpg": "/static/media/my_img.76e943d910ddcf41c2ed.jpg",
     "index.html": "/index.html",
-    "main.9d67f0c2.css.map": "/static/css/main.9d67f0c2.css.map",
-    "main.1cca6a99.js.map": "/static/js/main.1cca6a99.js.map",
+    "main.8a123ae5.css.map": "/static/css/main.8a123ae5.css.map",
+    "main.9d082e3a.js.map": "/static/js/main.9d082e3a.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d67f0c2.css",
-    "static/js/main.1cca6a99.js"
+    "static/css/main.8a123ae5.css",
+    "static/js/main.9d082e3a.js"
   ]
 }
