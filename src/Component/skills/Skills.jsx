@@ -5,13 +5,12 @@ import "./skills.css";
 export const Skills = () => {
   return (
     <section id="skills" className="section">
-       <h2 className="section_title">Skills</h2>
+      <h2 className="section_title">Skills</h2>
       <span className="section_subtitle">Technical level</span>
-      
 
       <div className="container skills_main_container  ">
         <div className="skills_frontend skills_container">
-        <h3 className="skills_title" > my technical Levels </h3>
+          <h3 className="skills_title"> Frontend </h3>
           <div className="skills_content">
             <article className="skills_details">
               <BsPatchCheckFill className="skills_details-icon" />
@@ -44,13 +43,6 @@ export const Skills = () => {
             <article className="skills_details">
               <BsPatchCheckFill className="skills_details-icon" />
               <div>
-                <h4>DSA</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-            <article className="skills_details">
-              <BsPatchCheckFill className="skills_details-icon" />
-              <div>
                 <h4>Redux</h4>
                 <small className="text-light">Intermediate</small>
               </div>
@@ -69,6 +61,46 @@ export const Skills = () => {
                 <small className="text-light">Experienced</small>
               </div>
             </article>
+            <article className="skills_details">
+              <BsPatchCheckFill className="skills_details-icon" />
+              <div>
+                <h4>DSA</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+          </div>
+          <br />
+          <hr />
+          <br />
+          <h3 className="skills_title"> Backend </h3>
+          <div className="skills_content">
+            <article className="skills_details">
+              <BsPatchCheckFill className="skills_details-icon" />
+              <div>
+                <h4>Node</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="skills_details">
+              <BsPatchCheckFill className="skills_details-icon" />
+              <div>
+                <h4>MongoDB</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="skills_details">
+              <BsPatchCheckFill className="skills_details-icon" />
+              <div>
+                <h4>Express</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+          </div>
+
+          <hr />
+          <br />
+          <h3 className="skills_title"> Tech Tools </h3>
+          <div className="skills_content">
             <article className="skills_details">
               <BsPatchCheckFill className="skills_details-icon" />
               <div>
@@ -94,21 +126,7 @@ export const Skills = () => {
             <article className="skills_details">
               <BsPatchCheckFill className="skills_details-icon" />
               <div>
-                <h4>Node</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-            <article className="skills_details">
-              <BsPatchCheckFill className="skills_details-icon" />
-              <div>
-                <h4>MongoDB</h4>
-                <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-            <article className="skills_details">
-              <BsPatchCheckFill className="skills_details-icon" />
-              <div>
-                <h4>Express</h4>
+                <h4>Postman</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
@@ -118,8 +136,6 @@ export const Skills = () => {
     </section>
   );
 };
-
-
 
 // import React from "react";
 // import './skills.css'
