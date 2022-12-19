@@ -118,7 +118,7 @@ const Project = () => {
           <div className="project_img_div">
             <a
               href="
-                https://optimizely-clone.vercel.app/"
+              https://magenta-melba-85b7ee.netlify.app/homepage.html"
               target="blank"
             >
               <img
@@ -143,7 +143,7 @@ const Project = () => {
 
           <div className="project_tech_icon">
             <span>TECH STACKS: </span>
-            HTML | CSS | JAVASCRIPT | NETLIFY | GITHUB
+            HTML | CSS | JAVASCRIPT | NETLIFY | GITHUB | API
           </div>
           <div className="project_button">
             <a href="https://github.com/Yashhh08/SEPHORA-Clone" target="blank">
