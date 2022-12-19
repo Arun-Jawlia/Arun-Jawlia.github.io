@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d18cf6e0.css",
-    "main.js": "/static/js/main.0dd933e0.js",
+    "main.js": "/static/js/main.20fb344f.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/NordStorm.png": "/static/media/NordStorm.0ca75cab73fe2eedd773.png",
     "static/media/sephora_clone.png": "/static/media/sephora_clone.a110a524fc349ee82a86.png",
@@ -23,11 +23,11 @@
     "static/media/js.png": "/static/media/js.3abb3de3f1e1d537ad2e.png",
     "index.html": "/index.html",
     "main.d18cf6e0.css.map": "/static/css/main.d18cf6e0.css.map",
-    "main.0dd933e0.js.map": "/static/js/main.0dd933e0.js.map",
+    "main.20fb344f.js.map": "/static/js/main.20fb344f.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d18cf6e0.css",
-    "static/js/main.0dd933e0.js"
+    "static/js/main.20fb344f.js"
   ]
 }
