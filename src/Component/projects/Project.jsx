@@ -34,11 +34,11 @@ const Project = () => {
             </a>
           </div>
           <div className="project_description">
-            
             Optimizely is an American company that provides digital experience
-            platform software as a service. In this website using react, I have created the homepage of this website and make it responsive as much I can.
+            platform software as a service. In this website using react, I have
+            created the homepage of this website and make it responsive as much
+            I can.
           </div>
-         
 
           <div className="project_tech_icon">
             <span>TECH STACKS: </span>
@@ -84,12 +84,10 @@ const Project = () => {
           </div>
 
           <div className="project_description">
-            
-            Asos is an Online Shopping Website for the Latest Clothes & Fashion for
-            Man and Woman.
-            I have created the product and product's show page with using tech stacks.
+            Asos is an Online Shopping Website for the Latest Clothes & Fashion
+            for Man and Woman. I have created the product and product's show
+            page with using tech stacks.
           </div>
-          
 
           <div className="project_tech_icon">
             <span>TECH STACKS: </span>
@@ -129,17 +127,15 @@ const Project = () => {
             </a>
           </div>
           <div className="project_title_div">
-            <a href="https://optimizely-clone.vercel.app/" target="blank">
+            <a href="https://magenta-melba-85b7ee.netlify.app/homepage.html" target="blank">
               <h3 className="project_title">Sephora Clone</h3>
             </a>
           </div>
 
           <div className="project_description">
-            
-            Sephora is a leading lifestyle brand. It's an online luxury brand for beauty and
-            skincare products for women.
+            Sephora is a leading lifestyle brand. It's an online luxury brand
+            for beauty and skincare products for women.
           </div>
-         
 
           <div className="project_tech_icon">
             <span>TECH STACKS: </span>
@@ -151,7 +147,7 @@ const Project = () => {
                 <i class="uil uil-github"></i>
               </button>
             </a>
-            <a href="https://optimizely-clone.vercel.app/" target="blank">
+            <a href="https://magenta-melba-85b7ee.netlify.app/homepage.html" target="blank">
               <button>
                 <i class="uil uil-eye"></i>
               </button>
@@ -185,11 +181,9 @@ const Project = () => {
           </div>
 
           <div className="project_description">
-            
             Nordstrom, Inc. is a leading fashion retailer offering compelling
             clothing, shoes and accessories for men, women and kids.
           </div>
-        
 
           <div className="project_tech_icon">
             <span>TECH STACKS: </span>
