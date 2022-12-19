@@ -17,6 +17,7 @@ export const Github = () => {
           <GitHubCalendar
             username="Arun-Jawlia"
             // showWeekdayLabels="true"
+            
             // hideTotalCount="true"
             // hideColorLegend="true"
           />

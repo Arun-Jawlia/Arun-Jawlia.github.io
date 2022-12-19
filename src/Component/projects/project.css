@@ -1,5 +1,5 @@
 .project_container{
-    width: 950%;
+    width: 95%;
     grid-template-columns: repeat(3,1fr);
     justify-content: center;
     /* margin: auto; */
@@ -15,9 +15,9 @@
     background-color: var(--container-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 1.25rem;
-    padding: 1rem;
+    padding: 0.4rem;
     margin: auto;
-    border: 1px solid black;
+    border: 1px solid rgb(210, 209, 209);
    
     
 
