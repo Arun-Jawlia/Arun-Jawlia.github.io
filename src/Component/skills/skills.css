@@ -32,36 +32,10 @@
     margin: 2rem;
     color: var(--color-primary);
   }
-  .skills_content {
-    display: grid;
-    border: none;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(auto);
-    row-gap: 1rem;
-    margin-bottom: 2rem;
-  }
   
-  .skills_details {
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    display: flex;
-    gap: 1rem;
-    margin: auto;
-    padding: 0.8rem 2rem;
-    border-radius: 0.5rem;
-  }
-  .skills_details:hover {
-    background-color:rgb(198, 198, 248);
-    scale: 1.2;
-    cursor: cursor;
-    transition: var(--transition);
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    
-  }
-  .skills_details-icon {
-    margin-top: 6px;
-    color: var(--color-primary);
-  }
   
+ 
+ 
   /* ==========MEDIA QUERIES (Tablets)===========*/
   @media screen and (max-width: 992px) {
     /* .skills_container > div {

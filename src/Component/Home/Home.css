@@ -23,7 +23,7 @@
 
 
 .home_img{
-    background: url('https://media-exp1.licdn.com/dms/image/C4E03AQFwjnAV8A5ArQ/profile-displayphoto-shrink_400_400/0/1649170812785?e=1671667200&v=beta&t=EXR696hhbWTsHbEXXq7T9UTjk5_0gzB0FP3FlFcplaA') ;
+    /* background: url('https://media-exp1.licdn.com/dms/image/C4E03AQFwjnAV8A5ArQ/profile-displayphoto-shrink_400_400/0/1649170812785?e=1671667200&v=beta&t=EXR696hhbWTsHbEXXq7T9UTjk5_0gzB0FP3FlFcplaA') ; */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -34,9 +34,15 @@
     width: 350px;
     height: 350px;
     border-radius: 50%;
+    
     border: 5px solid red;
     
 
+}
+
+.home_img>img{
+    border-radius: 50%;
+    
 }
 
 
