@@ -3,6 +3,7 @@ import { Data } from './Data'
 import './Home.css'
 import { Social } from './Social'
 import myImg from '../../assets/arun_png.png'
+import ScrollDown from './ScrollDown'
 
 const Home = () => {
   return (

@@ -118,7 +118,7 @@ const Project = () => {
           <div className="project_img_div">
             <a
               href="
-                https://optimizely-clone.vercel.app/"
+              https://magenta-melba-85b7ee.netlify.app/"
               target="blank"
             >
               <img
@@ -129,7 +129,7 @@ const Project = () => {
             </a>
           </div>
           <div className="project_title_div">
-            <a href="https://optimizely-clone.vercel.app/" target="blank">
+            <a href="https://magenta-melba-85b7ee.netlify.app/" target="blank">
               <h3 className="project_title">Sephora Clone</h3>
             </a>
           </div>
@@ -151,7 +151,7 @@ const Project = () => {
                 <i class="uil uil-github"></i>
               </button>
             </a>
-            <a href="https://optimizely-clone.vercel.app/" target="blank">
+            <a href="https://magenta-melba-85b7ee.netlify.app/" target="blank">
               <button>
                 <i class="uil uil-eye"></i>
               </button>
