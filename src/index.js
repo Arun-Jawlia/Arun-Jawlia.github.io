@@ -4,16 +4,27 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter} from 'react-router-dom'
+<<<<<<< HEAD
 import { ChakraProvider } from '@chakra-ui/react'
+=======
+// import {ChakraProvider} from '@chakra-ui/react'
+>>>>>>> 7a3912cdae53d8641c4d756adcefa2b1869a4bfe
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   // <React.StrictMode>/
   <BrowserRouter>
+<<<<<<< HEAD
   <ChakraProvider>
 
   <App />
   </ChakraProvider>
+=======
+  {/* <ChakraProvider> */}
+
+  <App />
+  {/* </ChakraProvider> */}
+>>>>>>> 7a3912cdae53d8641c4d756adcefa2b1869a4bfe
   
   </BrowserRouter>
   // </React.StrictMode>

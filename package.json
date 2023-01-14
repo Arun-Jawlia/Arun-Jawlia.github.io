@@ -13,6 +13,10 @@
     "@testing-library/user-event": "^13.5.0",
     "emailjs-com": "^3.2.0",
     "framer-motion": "^7.10.2",
+<<<<<<< HEAD
+=======
+    "github-calendar": "^2.3.1",
+>>>>>>> 7a3912cdae53d8641c4d756adcefa2b1869a4bfe
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-github-calendar": "^3.3.4",
