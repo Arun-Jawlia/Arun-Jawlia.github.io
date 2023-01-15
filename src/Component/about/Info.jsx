@@ -7,7 +7,7 @@ const Info = () => {
       <div className="about_box">
         <box-icon name="briefcase-alt-2" className="about_icon"></box-icon>
         <h3 className="about_title"> Completed </h3>
-        <span className="about_subtitle">5+ projects</span>
+        <span className="about_subtitle">4+ projects</span>
       </div>
       <div className="about_box">
         <box-icon name="briefcase-alt-2" className="about_icon"></box-icon>
@@ -17,7 +17,7 @@ const Info = () => {
       <div className="about_box">
         <box-icon name="briefcase-alt-2" className="about_icon"></box-icon>
         <h3 className="about_title"> Completed </h3>
-        <span className="about_subtitle">300+ problems DSA</span>
+        <span className="about_subtitle">300+ DSA problems</span>
       </div>
       
     </div>

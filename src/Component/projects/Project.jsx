@@ -116,11 +116,7 @@ const Project = () => {
           <div className="project_img_div">
             <a
               href="
-<<<<<<< HEAD
               https://magenta-melba-85b7ee.netlify.app/"
-=======
-              https://magenta-melba-85b7ee.netlify.app/homepage.html"
->>>>>>> 7a3912cdae53d8641c4d756adcefa2b1869a4bfe
               target="blank"
             >
               <img
@@ -131,11 +127,7 @@ const Project = () => {
             </a>
           </div>
           <div className="project_title_div">
-<<<<<<< HEAD
             <a href="https://magenta-melba-85b7ee.netlify.app/" target="blank">
-=======
-            <a href="https://magenta-melba-85b7ee.netlify.app/homepage.html" target="blank">
->>>>>>> 7a3912cdae53d8641c4d756adcefa2b1869a4bfe
               <h3 className="project_title">Sephora Clone</h3>
             </a>
           </div>
@@ -155,11 +147,7 @@ const Project = () => {
                 <i class="uil uil-github"></i>
               </button>
             </a>
-<<<<<<< HEAD
             <a href="https://magenta-melba-85b7ee.netlify.app/" target="blank">
-=======
-            <a href="https://magenta-melba-85b7ee.netlify.app/homepage.html" target="blank">
->>>>>>> 7a3912cdae53d8641c4d756adcefa2b1869a4bfe
               <button>
                 <i class="uil uil-eye"></i>
               </button>
