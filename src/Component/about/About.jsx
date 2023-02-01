@@ -1,6 +1,6 @@
 import "./about.css";
 import myCV from "../../assets/Arun-Jawlia-Resume.pdf.pdf";
-import myImg from "../../assets/my_img.jpg";
+import myImg from "../../assets/arun_png2.png";
 
 import React from "react";
 import Info from "./Info";
