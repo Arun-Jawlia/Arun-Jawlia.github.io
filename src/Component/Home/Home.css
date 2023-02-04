@@ -30,15 +30,15 @@
     
     order: 1;
     justify-self: center;
-    width: 300px;
-    height: 300px;
     
     
 
 }
 
 .home_img>img{
-    border-radius: 10%;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
     
 }
 
@@ -126,20 +126,6 @@ button{
 
 
 
-.material-symbols-outlined{
-    animation: scroll 2s ease infinite;
-}
-
-@keyframes scroll{
-    0% {
-        transform: translateY(0);
-    }
-
-    30% {
-        transform: translateY(1rem);
-    }
-}
-
 
 .home_scroll_name{
     color: var(--title-color);
@@ -179,7 +165,7 @@ For large devices */
 
     }
 
-    .home_img{
+    .home_img>img{
         width: 250px;
         height: 250px;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -192,6 +178,20 @@ For large devices */
    
   }
   /* For medium devices */
+  @media screen and (max-width: 769px) {
+
+    .home_img>img{
+        width: 200px;
+        height: 200px;
+        margin-left:5px;
+        
+        
+    }
+
+  }
+
+
+
   @media screen and (max-width: 768px) {
     .home_content{
         grid-template-columns: 0.5rem 3fr;
@@ -202,7 +202,7 @@ For large devices */
         order: initial;
         justify-self: initial;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        margin-left: 3rem;
+        margin-left: 1rem;
 
     }
 
@@ -212,10 +212,10 @@ For large devices */
 
     }
 
-    .home_img{
+    .home_img>img{
         width: 200px;
         height: 200px;
-        margin-left:10px;
+        margin-left:5px;
         
         
     }
@@ -241,19 +241,18 @@ For large devices */
     }  
   /* For small devices */
   @media screen and (max-width: 350px) {
-    .home_img{
-        width: 150px;
-        height: 150px;
+    .home_img>img{
+        width: 160px;
+        height: 160px;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        margin-right: 0.5rem;
     }
   }
 
 
   @media screen and (max-width: 250px){
-    .home_img{
-        width: 130px;
-        height: 130px;
+    .home_img>img{
+        width: 120px;
+        height: 120px;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         margin-right: 1rem;
         padding: .5rem;

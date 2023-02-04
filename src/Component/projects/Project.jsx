@@ -13,53 +13,7 @@ const Project = () => {
       <div className="project_container container grid">
         {/* First project */}
 
-        <div className="project_content">
-          <div className="project_img_div">
-            <a
-              href="
-                https://optimizely-clone.vercel.app/"
-              target="blank"
-            >
-              <img
-                className="project_image"
-                src={optimizelyImg}
-                alt="sephora clone"
-              />
-            </a>
-          </div>
-
-          <div className="project_title_div">
-            <a href="https://optimizely-clone.vercel.app/" target="blank">
-              <h3 className="project_title">Optimizely Clone</h3>
-            </a>
-          </div>
-          <div className="project_description">
-            Optimizely is an American company that provides digital experience
-            platform software as a service. In this website using react, I have
-            created the homepage of this website and make it responsive as much
-            I can.
-          </div>
-
-          <div className="project_tech_icon">
-            <span>TECH STACKS: </span>
-            HTML | CSS | JAVASCRIPT | REACT |NETLIFY | GITHUB
-          </div>
-          <div className="project_button">
-            <a
-              href="https://github.com/Arun-Jawlia/sable-club-7536/tree/main/my_project_unit_4"
-              target="blank"
-            >
-              <button>
-                <i class="uil uil-github"></i>
-              </button>
-            </a>
-            <a href="https://optimizely-clone.vercel.app/" target="blank">
-              <button>
-                <i class="uil uil-eye"></i>
-              </button>
-            </a>
-          </div>
-        </div>
+     
 
         {/* Second project- Asos  */}
 
@@ -156,6 +110,53 @@ const Project = () => {
         </div>
 
         {/* Fourth project Nordstorm */}
+        <div className="project_content">
+          <div className="project_img_div">
+            <a
+              href="
+                https://optimizely-clone.vercel.app/"
+              target="blank"
+            >
+              <img
+                className="project_image"
+                src={optimizelyImg}
+                alt="optimizely clone"
+              />
+            </a>
+          </div>
+
+          <div className="project_title_div">
+            <a href="https://optimizely-clone.vercel.app/" target="blank">
+              <h3 className="project_title">Optimizely Clone</h3>
+            </a>
+          </div>
+          <div className="project_description">
+            Optimizely is an American company that provides digital experience
+            platform software as a service. In this website using react, I have
+            created the homepage of this website and make it responsive as much
+            I can.
+          </div>
+
+          <div className="project_tech_icon">
+            <span>TECH STACKS: </span>
+            HTML | CSS | JAVASCRIPT | REACT |NETLIFY | GITHUB
+          </div>
+          <div className="project_button">
+            <a
+              href="https://github.com/Arun-Jawlia/sable-club-7536/tree/main/my_project_unit_4"
+              target="blank"
+            >
+              <button>
+                <i class="uil uil-github"></i>
+              </button>
+            </a>
+            <a href="https://optimizely-clone.vercel.app/" target="blank">
+              <button>
+                <i class="uil uil-eye"></i>
+              </button>
+            </a>
+          </div>
+        </div>
 
         <div className="project_content">
           <div className="project_img_div">
