@@ -12,19 +12,19 @@ export const Github = () => {
       <span className="section_subtitle" style={{ marginTop: "10px" }}>
         My Contributions
       </span>
-      <div className="container git_calender">
+      <div className=" git_calender">
         <a href="https://github.com/Arun-Jawlia" target="blank">
           <GitHubCalendar
             username="Arun-Jawlia"
-            // showWeekdayLabels="true"
+            showWeekdayLabels="true"
             
-            // hideTotalCount="true"
-            // hideColorLegend="true"
+            hideTotalCount="true"
+            hideColorLegend="true"
           />
         </a>
       </div>
 
-      <div className="container git_stats">
+      <div className=" git_stats">
         <div>
           <img
             // align="left"

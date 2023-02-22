@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 import "./Header.css";
+import myCV from "../../assets/Arun-Jawlia-Resume.pdf.pdf";
 
 const Header = () => {
 
@@ -13,13 +14,12 @@ const Header = () => {
     <header className="header">
       <nav className="nav container">
       <h1>
-      <a href="index.html" className="nav_logo">
-          Arun Jawlia
-
+      <a href="#home"  className="nav_logo">
+          AJ
         </a>
       </h1>
 
-        <div className={toggle ? 'nav_menu show_menu' : 'nav_menu'}>
+        <div className={toggle ? 'nav_menu show_menu' : 'nav_menu go_back'}>
           <ul className="nav_list grid">
             <li className="nav_item">
               <a href="#home" className="nav_link active_link">
@@ -46,6 +46,11 @@ const Header = () => {
             <li className="nav_item">
               <a href="#contact" className="nav_link">
                 <i className="uil uil-message nav_icon"></i>Contact
+              </a>
+            </li>
+            <li className="nav_item">
+              <a download=''  className="nav_link" href={myCV}>
+                <i className=" uil uil-import nav_icon"></i>Resume
               </a>
             </li>
           </ul>

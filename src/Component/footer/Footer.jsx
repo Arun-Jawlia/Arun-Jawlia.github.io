@@ -5,40 +5,11 @@ export const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer_container container">
-        <h1 className="footer_title">
-          <span>Arun</span>
-          <span> </span>
-          <span
-            style={{
-              backgroundColor: "red",
-              paddingLeft: "4px",
-              borderTopLeftRadius: "10px",
-              borderBottomRightRadius: "10px",
-              paddingRight: "4px",
-              color: "black",
-            }}
-          >
-            Jawlia
-          </span>
-        </h1>
+              <h1 className="footer_list">
+              Made with ❣️
+              </h1>
+       
 
-        <ul className="footer_list">
-          <li>
-            <a href="#about" className="footer_link">
-              About
-            </a>
-          </li>
-          <li>
-            <a href="#skills" className="footer_link">
-              Skills
-            </a>
-          </li>
-          <li>
-            <a href="#project" className="footer_link">
-              Project
-            </a>
-          </li>
-        </ul>
 
         <div className="footer_social">
           <a

@@ -5,34 +5,24 @@ export const Data = () => {
   return (
     <div className="home_data">
       <h1 className="home_title">
-        <span
-          style={{
-            backgroundColor: "red",
-            color: "black",
-            paddingLeft: "3px",
-            borderTopRightRadius: "10px",
-            borderBottomLeftRadius: "10px",
-            paddingRight: "3px",
-          }}
-        >
-          Arun
-        </span>{" "}
-        <span> </span>
-        <span style={{ color: "white" }}>Jawlia</span>
+       
+          Arun Jawlia
       </h1>
-      <h3 className="home_subtitle">Full Stack Web Developer</h3>
+      <h2 className="home_subtitle">Full Stack Web Developer</h2>
       <p className="home_description">
         Highly talented and motivated developer with the knowledge of MERN technologies
-        and fully dedicated to my work.
+        and very passionate and dedicated to my work.
       </p>
-      <a href="#contact">
-        <button className="btn_hover" >
-          Say Hello
-        </button>
+      <div className="resume-contact">
+      <a href="#contact" className="button button_flex">
+       
+          👋Hello
+        
       </a>
-      <a  download="" href={myCV}>
-            <button className="btn_hover" >Resume</button>
+      <a  download="" className="button button_flex" href={myCV}>
+          Resume  <i class="uil uil-download-alt"></i> 
           </a>
+      </div>
           
     </div>
   );

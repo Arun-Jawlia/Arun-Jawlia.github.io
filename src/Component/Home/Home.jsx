@@ -2,7 +2,7 @@ import React from 'react'
 import { Data } from './Data'
 import './Home.css'
 import { Social } from './Social'
-import myImg from '../../assets/arun_png2.png'
+// import myImg from '../../assets/arun_png2.png'
 import ScrollDown from './ScrollDown'
 
 const Home = () => {
@@ -12,8 +12,8 @@ const Home = () => {
         <div className="home_content grid">
             <Social/>
             <div className="home_img">
-              <img src={myImg} alt="" />
-               </div>
+              
+</div>
             <Data/>
 
         </div>

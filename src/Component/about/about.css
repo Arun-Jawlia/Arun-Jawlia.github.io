@@ -1,9 +1,12 @@
 .about_container {
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    column-gap: 4rem;
+    column-gap: 1rem;
+    width: 90%;
+    /* border: 1px solid black; */
+    margin: auto;
    
-    border-radius: 20px;
 }
 
 .about_img {
@@ -12,6 +15,7 @@
     justify-self: center;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin-bottom: 13rem;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 
@@ -60,13 +64,6 @@
 
 }
 
-.about_resume>button{
-    margin-top:  0.5rem;
-    background-color: black;
-    color: white;
-    padding: .2rem;
-    
-}
 
 
 
@@ -100,7 +97,7 @@ For large devices */
     }
 
     .about_description{
-        padding: 0 5rem;
+        padding: 0 1.5rem;
         margin-bottom: 2rem;
         text-align: center;
     }
@@ -112,6 +109,11 @@ For large devices */
   }
   /* For medium devices */
   @media screen and (max-width: 768px) {
+
+    .about_container{
+        width: 90%;
+    }
+
     I .about_info{
         grid-template-columns: repeat(3, 1fr);
         gap: 0.5rem;
@@ -132,6 +134,11 @@ For large devices */
 
     }
 
+    .about_container{
+        width: 90%;
+        font-size: var(--small-font-size);
+    }
+
     .about_description{
         padding: 0;
 
@@ -144,6 +151,8 @@ For large devices */
   }
   /* For small devices */
   @media screen and (max-width: 350px) {
+   
+
     .about_info{
         grid-template-columns: repeat(2,1fr);
         

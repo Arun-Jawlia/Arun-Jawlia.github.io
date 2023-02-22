@@ -1,126 +1,74 @@
 .project_container{
-    width: 100%;
-    grid-template-columns: repeat(3,1fr);
+    width: 95%;
     justify-content: center;
-    /* margin: auto; */
+    margin: auto;
     background-color: var(--container-color);
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 1.25rem;
+    border-radius: 0.25rem;
     padding: 1rem 1rem;
-    /* box-shadow: rgba(78, 9, 228, 0.2) 0px 2px 15px 0px; */
+    background-color: var(--body-color);
 }
 
 
 .project_content{
     background-color: var(--container-color);
-    border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 1.25rem;
     padding: 0.2rem;
     margin: auto;
-    border: 1px solid rgb(210, 209, 209);
+    /* border: 1px solid rgb(210, 209, 209); */
     font-size: 13px;
    
     
-
-    
-
-}
-
-.project_content:hover{
-    transition: all 400ms ease;
-}
-
-.project_image:hover{
-    cursor: pointer;
-}
-
-.project_content:hover{
-    
-    cursor: pointer;
 }
 
 
-
-
-.tech_icon{
-    font-size: 2rem;
-    /* color: var(--title-color); */
-    color: orange;
-}
-
-
-
-
-/* .project_button>span>button{
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-} */
-
-button{
-    /* background-color: black; */
-    color: black;
-    background-color: var(--body-color);
-    border: 1px solid var(--text-color);
-    padding: 0.25rem 1rem;
-
-
-}
-
-button:hover{
-    background-color: var(--title-color);
-    color: white;
-}
-
-
-
-
-
-.project_title_div , .project_description, .project_responsible, .project_img_div, .project_tech_icon{
-    /* border: 1px solid black; */
-    padding: 5px 10px;
-}
-
-
-
-.project_img_div{
-    height: 30%;
+.project_div{
+    /* border: 3px solid black; */
+    display: grid;
     width: 100%;
+    margin: auto;
+    grid-template-columns: repeat(2,1fr);
+    /* column-gap: 1rem; */
+    padding: 1rem;
+    margin-bottom: var(--mb-2);
+    column-gap: 0.5rem;
 }
+
 
 .project_title{
-    height: 10%;
     text-align: center;
+
 }
 
-.project_description{
-    height: 30%;
-}
-
-.project_responsible{
-    height: 20%;
-}
-
-.project_button{
-    height: 10%;
-    display: flex;
-    justify-content: space-around;
+.project_desc
+{
     margin-top: 1rem;
-}
-
-.project_tech_icon{
-    font-size: var(--small-font-size);
-    font-weight: 600;
-    color: rgb(228, 48, 48);
+    max-height: fit-content;
 }
 
 
-
-
-
-.project_button a button {
-    font-size: 25px;
-    font-weight: 800;
+.button{
+    padding: 0.5rem 1rem;
 }
+
+
+
+.project_div>div:nth-child(2)
+{
+    margin: auto;
+    /* border: 2px solid black   ; */
+    height: 100%;
+    line-height: 1.5rem;
+}
+
+.project_div{
+    transition: transform 3s;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.project_div:hover{
+    transform: scale(1.05); 
+}
+    
 
 
 
@@ -150,53 +98,65 @@ button:hover{
 
 /*== ===== BREAKPOINTS ===
 For large devices */
-@media screen and (max-width: 992px) {
-    .container{
-      margin-left: var(--mb-1-5);
-      margin-right: var(--mb-1-5);
+@media screen and (max-width: 1150px) {
+
+    .project_div{
+        /* border: 3px solid black; */
+        width: 100%;
+        margin: auto;
+        grid-template-columns: repeat(1,1fr);
+        /* column-gap: 1rem; */
+        margin-bottom: var(--mb-1-5);
+        row-gap: 1rem;
     }
+
+    
   
-    .button{
-      padding: 1rem 1.75rem;
-    }
   
    
   
   }
+
+
+
+
   /* For medium devices */
   @media screen and (max-width: 768px) {
   
    
       .project_container{
-          width: 90%;
-          grid-template-columns: repeat(2,1fr);
-          justify-content: center;
-          margin: auto;
-          background-color: var(--container-color);
-          border: 1px solid rgba(0, 0, 0, 0.1);
-          border-radius: 1.25rem;
-          padding: 1rem 2rem;
+          width: 100%;
       }
   
+
+      .project_div{
+        /* border: 3px solid black; */
+        width: 95%;
+        grid-template-columns: repeat(1,1fr);
+        /* column-gap: 1rem; */
+        padding: 1rem;
+    }
    
+    .button{
+        padding: 0.2rem 0.5rem;
+    }
   
     
   }
   @media screen and (max-width: 576px) {
     .project_container{
-        width: 90%;
+        width: 100%;
         grid-template-columns: repeat(1,1fr);
-        justify-content: center;
-        margin: auto;
-        background-color: var(--container-color);
-        border: 1px solid rgba(0, 0, 0, 0.1);
-        border-radius: 1.25rem;
-        padding: 1rem 2rem;
     }
 
-    button{
-        padding:0.4rem 0.75rem
+    .project_div{
+        /* border: 3px solid black; */
+        width: 100%;
+        grid-template-columns: repeat(1,1fr);
+        /* column-gap: 1rem; */
+        padding: 1rem;
     }
+   
 
     
 
@@ -206,10 +166,18 @@ For large devices */
     :root{
       --big-font-size:2.25rem
     }
-  
-    .container{
-      margin-left: var(--mb-1);
-      margin-right: var(--mb-1);
-  
+    .project_container{
+        width: 100%;
+        grid-template-columns: repeat(1,1fr);
     }
+
+    .project_div{
+        /* border: 3px solid black; */
+        width: 100%;
+        grid-template-columns: repeat(1,1fr);
+        /* column-gap: 1rem; */
+        padding:1rem;
+    }
+  
+   
   }

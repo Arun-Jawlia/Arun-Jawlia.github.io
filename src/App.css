@@ -22,7 +22,7 @@
 --title-color-dark: hsl(var(--hue), var(--sat), 0%);
 --text-color: hsl(var(--hue), var(--sat), 46%);
 --body-color: hsl(var(--hue), var(--sat), 98%);
---container-color: #fff;
+--container-color: #fbfafa;
 --transition: all 500ms ease;
 
 
@@ -59,8 +59,8 @@
 
 
  /*========== z index */
---z-tooltip: 10;
---z-fixed: 100;
+ --z-tooltip: 10;
+ --z-fixed: 100;
 --z-modal: 1000;
 
 }
@@ -75,6 +75,7 @@
   --normal-font-size: 0.938rem;
   --small-font-size: 0.813rem;
   --smaller-font-size: 0.75rem;
+  --background: orange;
   }
   }
 
@@ -84,6 +85,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 html{
@@ -136,7 +138,7 @@ img{
 
 /* Reusable CSS */
 .section{
-  padding: 5rem 0 3rem;
+  padding: 6rem 0 2rem;
   /* border: 2px solid red; */
 }
 
@@ -144,12 +146,14 @@ img{
 .section_title{
   font-size: var(--h1-font-size);
   color: var(--title-color);
+  color: red;
+  cursor: pointer;
 }
 
 .section_subtitle
 {
   display: block;
-  font-size: var(--small-font-size);
+  font-size: var(--normal-font-size);
   /* margin-bottom: 4rem; */
   margin-bottom: 1rem;
 
@@ -158,6 +162,9 @@ img{
 .section_title, .section_subtitle{
   text-align: center;
 }
+
+
+
 
 
 
@@ -183,8 +190,8 @@ img{
   display: inline-block;
   background-color: var(--title-color);
   color: var(--container-color);
-  padding: 1.25rem 2rem;
-  border-radius: 1rem;
+  padding: 0.8rem 1.5rem;
+  border-radius: 0.4rem;
   font-weight: var(--font-medium);
 }
 
@@ -243,6 +250,7 @@ For large devices */
   }
 
 
+  
 
   
 }

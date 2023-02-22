@@ -4,9 +4,11 @@
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
-    background-color: var(--body-color);
-    /* background-color: black; */
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* background-color: var(--body-color); */
+    /* background-color: var(--container-color); */
+    background:  #e9dcdc;
+    ;
+    /* box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px; */
     
 
 }
@@ -21,7 +23,7 @@
 
 }
 
-.nav_logo>span:hover{
+/* .nav_logo>span:hover{
     color: red;
     background-color: black;
     margin-right: 5px;
@@ -30,12 +32,14 @@
     border-radius: 50px;
     padding: 5px;
 
-}
+} */
 
 .nav_logo,
 .nav_toggle{
     color: var(--title-color);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
     font-weight: var(--font-medium);
+    font-size: 2rem;
 
 }
 
@@ -52,12 +56,17 @@
     color: var(--title-color);
     font-weight: var(--font-medium);
     transition: 0.3s;
-    border-radius: 50px;
-    padding:.5rem;
+    /* border-radius: 50px;
+    padding:.5rem; */
 
 
 }
 
+.nav_logo{
+    font-family: cursive;
+    font-weight: 600;
+
+}
 
 
 
@@ -76,12 +85,12 @@
 
 }
 
- .nav_link:hover{
+ /* .nav_link:hover{
     color: white;
     background-color: black;
     border-radius: 50px;
     padding:.5rem;
-}
+} */
 
 
 
@@ -97,8 +106,8 @@ For large devices */
   /* For medium devices */
   @media screen and (max-width: 768px) {
     .header{
-        top: initial;
-        bottom: 0;
+        top: 0;
+        /* bottom: 0; */
 
     }
 
@@ -109,22 +118,23 @@ For large devices */
 
     .nav_menu{
         position: fixed;
-        bottom: -100%;
+        top: -100%;
         left: 0;
         width: 100%;
         background-color:var(--body-color);
         padding: 2rem 1.5rem 4rem;
         box-shadow: 0 -1px 4px rgba(0, 0, 0,  0.15);
-        border-radius:1.5rem 1.5rem 0 0  ;
-        transition: .3s;
+        border-radius:0 0 1.5rem 1.5rem  ;
+        transition: .5s;
 
     }
 
     .show_menu{
-        bottom: 0;
-
-
+        top: 0;
     }
+
+    
+
 
     .nav_list{
         display: grid;

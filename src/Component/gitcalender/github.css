@@ -8,15 +8,17 @@
 .git_calender {
     display: flex;
     overflow: hidden;
+    width: 100%;
     justify-content: center;
     background: var(--color-bg-variant);
     /* margin-top: 10rem; */
     /* padding: 2rem 2rem; */
-    border-radius: 2rem;
-    border: 1px solid var(--text-color);
+    /* border: 1px solid var(--text-color); */
     color: var(--text-color);
+    padding: 1rem 0.5rem;
     transition: var(--transition);
     width: 100%;
+    transition: transform 2s;
 
 }
 
@@ -26,10 +28,10 @@ a{
 
   
   .git_calender:hover{
-      background: transparent;
+      /* background: transparent; */
       transition: var(--transition);
-      box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
-  
+      /* box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset; */
+      transform: scale(1.05);
   }
 
   .calender_subtitle{
@@ -41,7 +43,9 @@ a{
     margin-top: 1rem;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    column-gap: 2rem;
+    column-gap: 1rem;
+    /* width: 90%; */
+    margin: auto;
     
   }
 
@@ -49,6 +53,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 1.5rem;
   }
 
   .git_stats div img{
@@ -57,28 +62,16 @@ a{
 
 
 
-  .git_graph{
-    /* margin-top: 0.75rem; */
-    border-radius: 1rem;
-    margin-top: -3rem;
-  }
-
-  .git_graph img{
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
 
   
   @media screen and (max-width: 992px) {
   
-    .git_graph{
-      margin-top: -4rem;
-      width: 100%;
-    }
+    
    
+    .git_calender{
+      width: 90%;
+      margin: auto;
+    }
    
   
   }
@@ -96,11 +89,10 @@ a{
 
 
     .git_calender{
+      width: 90%;
       padding: 5px;
       border: 1px solid rgb(164, 161, 161);
-      border-radius: 0%;
-      width: 100%;
-      margin-right: 10px;
+      /* margin-right: 10px; */
       
     }
   
@@ -116,7 +108,7 @@ a{
     }
 
     .git_calender{
-      width: 100%;
+      width: 95%;
       font-size: 10px;
     }
 
@@ -132,10 +124,10 @@ a{
   @media screen and (max-width: 350px) {
     .git_graph{
       margin-top: -3rem;
-      width: 100%;
+      width: 95%;
     }
     .git_calender a{
-      font-size: 8pxpx
+      font-size: 8px
     }
    
   }

@@ -5,12 +5,14 @@ import { Footer } from "./Component/footer/Footer";
 import { Github } from "./Component/gitcalender/Github";
 import Header from "./Component/Header/Header";
 import Home from "./Component/Home/Home";
+import  { ParticlesOut } from "./Component/Particle.config";
 import Project from "./Component/projects/Project";
 import { Skills } from "./Component/skills/Skills";
 
 function App() {
   return (
     <>
+    <ParticlesOut/>
       <Header />
       <main className="main">
         <Home />
