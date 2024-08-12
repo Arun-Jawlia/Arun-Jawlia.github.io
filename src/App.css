@@ -1,5 +1,9 @@
+*{
+  font-family: "Nunito",'Roboto', "Poppins", sans-serif;
+}
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -34,5 +38,35 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+body{
+  margin: 0px;
+  padding:0px;
+  box-sizing: border-box;
+  background-color:#f8f9fa;
+  overflow-x: hidden;
+}
+
+.sectionHeading {
+  font-size: clamp(32px, 10vw, 128px);
+  /* font-weight: inherit; */
+  font-size: 3.125rem;
+  color: #2979a3;
+  text-transform: uppercase;
+  /* font-family: "Montserrat"; */
+  letter-spacing: 3.2px;
+  text-align: center;
+  position: relative;
+  /* margin-bottom: 50px; */
+  margin-top: 50px;
+  /* z-index: -1; */
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px){
+  .sectionHeading{
+    font-size: 2.5rem;
   }
 }
